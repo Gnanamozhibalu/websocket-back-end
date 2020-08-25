@@ -7,11 +7,10 @@ io.on('connection', socket => {
     io.emit('message', { name, message })
   })
 })
-
-/* http.listen(4000, function() {
+ http.listen(4000, function() {
   console.log('listening on port 4000')
 })
- */
-.listen(process.env.PORT || 4000,function(){
+
+/* .listen(process.env.PORT || 4000,function(){
   console.log("SERVER STARTED:4000");
-})
+}) */
